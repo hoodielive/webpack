@@ -1,7 +1,8 @@
-body {
+$primary: red; 
 
-    background: red; 
+body {
+    
+    background: $primary; 
 
 } 
-
 
