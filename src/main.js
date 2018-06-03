@@ -1,0 +1,1 @@
+alert('prophecy prophesy fo ru dah!')

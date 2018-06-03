@@ -1,0 +1,16 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "lucid developer <hoodielive@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.7.0"
+  }
+}
