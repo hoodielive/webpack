@@ -1,7 +1,9 @@
 var webpack = require('webpack');
 var path = require('path');
+var inProd = process.env.NODE_ENV === 'production'; 
 
 module.exports = {
+
     entry: './src/main.js', 
     output: {
         path: path.resolve(__dirname,'./dist'), 
@@ -28,7 +30,7 @@ module.exports = {
 
 };
 
-if (process.env.NODE_ENV === 'production') {
+if (inProd) {
     
     module.exports.plugins.push(
         
