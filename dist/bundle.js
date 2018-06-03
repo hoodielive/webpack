@@ -68,10 +68,20 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 
-class Form {}
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Form = function Form() {
+    _classCallCheck(this, Form);
+
+    alert('that isnt happening baby!');
+};
+
+new Form();
 
 /***/ })
 /******/ ]);
