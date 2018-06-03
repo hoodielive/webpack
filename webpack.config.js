@@ -20,7 +20,7 @@ module.exports = {
                 use: ExtractTextPlugin.extract({
                     use: ['css-loader', 'sass-loader'],
                     fallback: 'style-loader' 
-                }); 
+                }) 
             },
 
             { 
@@ -33,7 +33,7 @@ module.exports = {
 
         plugins: [ 
              
-            new ExtractTextPlugin('style.css');  
+            new ExtractTextPlugin('style.css')
         ] 
 
 };
