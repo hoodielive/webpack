@@ -1,1 +1,1 @@
-alert('prophecy prophesy fo ru dah!')
+require('./main.css'); 
