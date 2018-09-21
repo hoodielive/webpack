@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var inProd = process.env.NODE_ENV === 'production'; 
-let ExtractTextPlugin = require('extract-text-webpack-plugin'); 
+var ExtractTextPlugin = require('extract-text-webpack-plugin'); 
 
 module.exports = {
 
@@ -26,16 +26,15 @@ module.exports = {
             { 
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: "babel-loader"
+                loader: 'babel-loader'
             } 
         ]  
     },
 
-        plugins: [ 
-             
+    plugins: [ 
             new ExtractTextPlugin('style.css')
         ] 
-
+     
 };
 
 if (inProd) {
