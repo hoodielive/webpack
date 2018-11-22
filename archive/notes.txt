@@ -2,3 +2,13 @@ Webpack
 
 Why?
   - Because IIFE solve problems lol 
+  - Because CommonJS modules can't run in the browser
+  - Because of var _ = require('commonJS fuckery')
+
+What is it?
+  - a module bundler
+  - supports static async bundling
+  - has a vast, rich ecosystem
+  - the most performant way to ship javascript 
+
+# ok fuck off and code.. 
